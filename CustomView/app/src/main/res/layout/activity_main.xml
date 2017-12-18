@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.customview.activity.MainActivity">
+
+    <Button
+        android:id="@+id/zeng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="曾宇鑫" />
+
+    <Button
+        android:id="@+id/li"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="李琳" />
+
+    <Button
+        android:id="@+id/liu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="刘俊贤" />
+
+    <Button
+        android:id="@+id/hu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="胡相军" />
+
+    <Button
+        android:id="@+id/zhou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="周鹏程" />
+</LinearLayout>
