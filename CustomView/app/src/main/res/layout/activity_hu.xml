@@ -13,12 +13,12 @@
         android:layout_height="wrap_content"
         ></com.example.administrator.customview.LikeStar>
 
-    <com.example.administrator.customview.MyViewCircle
-        android:id="@+id/myview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="gone"
-        />
+    <!--<com.example.administrator.customview.MyViewCircle-->
+        <!--android:id="@+id/myview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:visibility="gone"-->
+        <!--/>-->
 
     <Button
         android:id="@+id/btn"

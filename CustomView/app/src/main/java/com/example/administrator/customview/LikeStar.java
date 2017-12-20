@@ -95,8 +95,8 @@ public class LikeStar extends ViewGroup {
 
                 //开始做动画效果
                 PointF endPointRandom = new PointF(random.nextInt(mWidth), mEndPoint.y);
-               BezierTypeEvaluator bezierTypeEvaluator = new BezierTypeEvaluator(mControllPointOne, mControllPointTwo);
-//                BezierTypeEvaluator bezierTypeEvaluator = new BezierTypeEvaluator(new PointF( random.nextInt(mWidth ),random.nextInt(mHeight)), new PointF( random.nextInt(mWidth),random.nextInt(mHeight)));
+             BezierTypeEvaluator bezierTypeEvaluator = new BezierTypeEvaluator(mControllPointOne, mControllPointTwo);
+   //            BezierTypeEvaluator bezierTypeEvaluator = new BezierTypeEvaluator(new PointF( random.nextInt(mWidth ),random.nextInt(mHeight)), new PointF( random.nextInt(mWidth),random.nextInt(mHeight)));
                 ValueAnimator valueAnimator = ValueAnimator.ofObject(bezierTypeEvaluator, mStartPoint, endPointRandom);
                 valueAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
                     @Override
