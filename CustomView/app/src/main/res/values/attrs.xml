@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <declare-styleable name="LineChart">
         <attr name="StrokeWidth" format="dimension"/>
         <attr name="FontSize" format="dimension"/>
@@ -9,4 +10,12 @@
         <attr name="DateTextColor" format="color"/>
         <attr name="ShapeColor" format="color"/>
     </declare-styleable>
+
+
+    <attr name="titleText" format="string"/>
+    <attr name="titleTextColor" format="color"/>
+    <attr name="titleTextSize" format="dimension"/>
+
+    <declare-styleable name="CustomTitleView"/>
+
 </resources>

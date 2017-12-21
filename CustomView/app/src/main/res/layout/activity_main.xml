@@ -11,7 +11,7 @@
         android:id="@+id/zeng"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="曾宇鑫" />
+        android:text="吸顶效果和标题栏渐变" />
 
     <Button
         android:id="@+id/li"

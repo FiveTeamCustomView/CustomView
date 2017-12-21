@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.administrator.customview">
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <application
         android:name=".application.MyApp"
         android:allowBackup="true"
@@ -19,7 +19,9 @@
         </activity>
         <activity android:name=".activity.ZhouActivity" />
         <activity android:name=".activity.LiuActivity" />
-        <activity android:name=".activity.LiActivity" />
+        <activity android:name=".activity.LiActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|keyboardHidden|screenLayout|screenSize" />
         <activity android:name=".activity.HuActivity" />
         <activity android:name=".activity.ZengActivity"></activity>
     </application>
