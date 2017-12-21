@@ -7,19 +7,31 @@
     android:orientation="vertical"
     tools:context="com.example.administrator.customview.activity.ZhouActivity">
 
-    <!--<com.example.administrator.customview.weight_zpc.BlogMovePath
+    <com.example.administrator.customview.weight_zpc.BlogMovePath
         android:id="@+id/blogMove"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1" />
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
     <Button
         android:id="@+id/rest"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="rest" />-->
-    <com.example.administrator.customview.weight_zpc.BlogMoveWave
+        android:layout_weight="1"
+        android:text="rest" />
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="next" />
+</LinearLayout>
+
+    <!--<com.example.administrator.customview.weight_zpc.BlogMoveWave
         android:id="@+id/wave"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content" />-->
 </LinearLayout>

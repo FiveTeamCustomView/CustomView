@@ -21,7 +21,10 @@
         <activity android:name=".activity.LiuActivity" />
         <activity android:name=".activity.LiActivity" />
         <activity android:name=".activity.HuActivity" />
-        <activity android:name=".activity.ZengActivity"></activity>
+        <activity android:name=".activity.ZengActivity" />
+        <activity android:name=".weight_zpc.bezier.BezierActivity" />
+        <activity android:name=".weight_zpc.citysele.CitySelectActivity" />
+        <activity android:name=".weight_zpc.pie.PieActivity"></activity>
     </application>
 
 </manifest>
