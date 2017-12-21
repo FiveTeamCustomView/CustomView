@@ -46,9 +46,6 @@ public class ZengActivity extends AppCompatActivity implements ObservableScrollV
         top = (LinearLayout) findViewById(R.id.top);
         top_include = (LinearLayout) findViewById(R.id.top_include);
 
-/*        int height = textView.getHeight();
-        Toast.makeText(ZengActivity.this,height+"",Toast.LENGTH_SHORT).show();*/
-
         initListeners();
         initData();
 
@@ -89,8 +86,6 @@ public class ZengActivity extends AppCompatActivity implements ObservableScrollV
     @Override
     public void onScrollChanged(ObservableScrollView scrollView, int x, int y,
                                 int oldx, int oldy) {
-        // TODO Auto-generated method stub
-        // Log.i("TAG", "y--->" + y + "    height-->" + height);
         if (y <= 0) {
             textView.setBackgroundColor(Color.argb((int) 0, 227, 29, 26));//AGB由相关工具获得，或者美工提供
         } else if (y > 0 && y <= imageHeight) {

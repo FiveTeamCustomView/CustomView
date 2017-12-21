@@ -7,33 +7,67 @@
     android:orientation="vertical"
     tools:context="com.example.administrator.customview.activity.MainActivity">
 
-    <Button
-        android:id="@+id/zeng"
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="吸顶效果和标题栏渐变" />
+        android:layout_height="350dp">
+        <Button
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:id="@+id/zeng"
+            android:background="#FF6600"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="吸顶效果和标题栏渐变" />
+
+        <Button
+            android:layout_margin="8dp"
+            android:background="#CC33FF"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_weight="3"
+            android:id="@+id/li"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="弹幕效果" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+        <Button
+            android:layout_margin="8dp"
+            android:id="@+id/liu"
+            android:background="#00FFFF"
+            android:textSize="20sp"
+            android:textColor="#FF33FF"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="刮卡效果" />
+
+        <Button
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:id="@+id/hu"
+            android:background="#33FF99"
+            android:textSize="20sp"
+            android:textColor="#990000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="点赞效果" />
+    </LinearLayout>
+
 
     <Button
-        android:id="@+id/li"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="李琳" />
-
-    <Button
-        android:id="@+id/liu"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="刘俊贤" />
-
-    <Button
-        android:id="@+id/hu"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="胡相军" />
-
-    <Button
+        android:background="#CC6666"
+        android:textSize="20sp"
+        android:textColor="#66FFFF"
         android:id="@+id/zhou"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="周鹏程" />
+        android:layout_height="match_parent"
+        android:text="手势轨迹等" />
 </LinearLayout>

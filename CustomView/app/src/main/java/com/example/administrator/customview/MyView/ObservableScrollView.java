@@ -10,17 +10,19 @@ import android.widget.ScrollView;
 
 public class ObservableScrollView extends ScrollView {
 
-
+    //渐变接口
     private OnScrollListener onScrollListener;
 
     public void setOnScrollListener(OnScrollListener onScrollListener){
         this.onScrollListener = onScrollListener;
     }
 
+
     public interface OnScrollListener{
         void onScroll(int scrollY);
     }
 
+    //吸顶效果接口
     public interface ScrollViewListener {
 
         void onScrollChanged(ObservableScrollView scrollView, int x, int y,
@@ -28,7 +30,7 @@ public class ObservableScrollView extends ScrollView {
 
     }
 
-    private ScrollViewListener scrollViewListener = null;
+    private ScrollViewListener scrollViewListener;
 
     public ObservableScrollView(Context context) {
         super(context);
